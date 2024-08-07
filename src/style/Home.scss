@@ -1,0 +1,43 @@
+.animes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  .anime {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-bottom: 2px solid #333;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+      color: #ff6347;
+    }
+  
+    p {
+      font-size: 1rem;
+      color: #cccccc;
+      margin: 10px;
+    }
+  }
+  
